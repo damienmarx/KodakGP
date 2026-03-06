@@ -1,0 +1,117 @@
+{
+  "brand_identity": {
+    "name": "KodakGP",
+    "theme": "dark",
+    "aesthetic": "High-End OSRS Marketplace",
+    "core_values": ["Trust", "Speed", "Dominance"],
+    "emotional_archetype": "The Digital Blacksmith"
+  },
+  "colors": {
+    "background": {
+      "app": "#0a0a0b",
+      "card": "#121214",
+      "overlay": "rgba(0, 0, 0, 0.8)"
+    },
+    "primary": {
+      "default": "#d7b340",
+      "hover": "#f5cc4a",
+      "foreground": "#000000"
+    },
+    "secondary": {
+      "default": "#60869a",
+      "hover": "#7aa4b8",
+      "foreground": "#ffffff"
+    },
+    "accent": {
+      "runite": "#60869a",
+      "dragon": "#8b0000",
+      "magic": "#43a047",
+      "void": "#000000"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#a1a1aa",
+      "muted": "#52525b"
+    },
+    "border": {
+      "default": "#27272a",
+      "active": "#d7b340"
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Cinzel Decorative, cursive",
+      "weights": ["700", "900"],
+      "usage": "Hero titles, Main Section headers"
+    },
+    "subheadings": {
+      "family": "Space Grotesk, sans-serif",
+      "weights": ["600"],
+      "usage": "Card titles, Features, Stats"
+    },
+    "body": {
+      "family": "Manrope, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Paragraphs, UI text, Inputs"
+    }
+  },
+  "layout": {
+    "container": {
+      "max_width": "max-w-7xl",
+      "padding": "px-4 sm:px-6 lg:px-8"
+    },
+    "spacing": {
+      "section_gap": "gap-24",
+      "card_gap": "gap-6",
+      "internal_padding": "p-6"
+    },
+    "grid_system": "Bento Grid (Mode A for Marketing, Mode B for Dashboard)"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#d7b340] text-black font-bold hover:bg-[#f5cc4a] rounded-none uppercase tracking-wider transition-all duration-200 shadow-[0_0_15px_rgba(215,179,64,0.3)]",
+      "secondary": "bg-transparent border border-[#60869a] text-[#60869a] hover:bg-[#60869a] hover:text-white rounded-none uppercase tracking-wider transition-all duration-200",
+      "ghost": "text-zinc-400 hover:text-white hover:bg-white/5"
+    },
+    "cards": {
+      "product": "bg-[#121214] border border-white/5 hover:border-[#d7b340]/50 transition-colors duration-300 group relative overflow-hidden",
+      "glass": "bg-black/60 backdrop-blur-xl border border-white/10"
+    },
+    "inputs": {
+      "default": "bg-black/40 border-zinc-800 focus:border-[#d7b340] focus:ring-1 focus:ring-[#d7b340] text-white placeholder:text-zinc-600"
+    }
+  },
+  "visual_enhancers": {
+    "glows": {
+      "gold": "shadow-[0_0_30px_-5px_rgba(215,179,64,0.3)]",
+      "runite": "shadow-[0_0_30px_-5px_rgba(96,134,154,0.3)]"
+    },
+    "textures": {
+      "noise": "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E\")"
+    }
+  },
+  "assets": {
+    "hero_bg": "https://images.unsplash.com/photo-1759545809864-f5f766827780?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxnb2xkJTIwY29pbnMlMjBwaWxlJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcyNzcxMDIyfDA&ixlib=rb-4.1.0&q=85",
+    "gold_package": "https://images.unsplash.com/photo-1758260759878-f58196990628?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHw0fHxnb2xkJTIwY29pbnMlMjBwaWxlJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzcyNzcxMDIyfDA&ixlib=rb-4.1.0&q=85",
+    "scripts_icon": "https://images.unsplash.com/photo-1640552435845-d65c23b75934?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwY29kZSUyMHNjcmVlbiUyMG1hdHJpeHxlbnwwfHx8fDE3NzI3NzEwMjR8MA&ixlib=rb-4.1.0&q=85",
+    "methods_icon": "https://images.unsplash.com/photo-1676115388797-5f448ad78e44?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwxfHxhbmNpZW50JTIwc2Nyb2xsJTIwcGFyY2htZW50fGVufDB8fHx8MTc3Mjc3MTAyNXww&ixlib=rb-4.1.0&q=85",
+    "auth_bg": "https://images.unsplash.com/photo-1717329808354-a51fd9c39592?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHw0fHxtZWRpZXZhbCUyMGZhbnRhc3klMjBsYW5kc2NhcGUlMjBkYXJrfGVufDB8fHx8MTc3Mjc3MTAyM3ww&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Install 'lucide-react' for icons immediately.",
+    "Add 'Cinzel Decorative', 'Space Grotesk', and 'Manrope' from Google Fonts in index.css.",
+    "Set the body background to #0a0a0b.",
+    "Use 'sonner' for all notifications.",
+    "Implement a 'Price Ticker' marquee at the top of the page using 'react-fast-marquee'.",
+    "The Hero section MUST use a parallax effect or a slow zoom on the background image.",
+    "Gold Packages must use the 'Gold Glow' visual enhancer on hover.",
+    "Ensure the 'Cart' is accessible via a floating action button or sticky header."
+  ],
+  "UNIVERSAL_GUIDELINES": {
+    "design_philosophy": "Fusion over Imitation. Do not make it look like a generic Bootstrap site.",
+    "spacing": "Use p-8, p-12, p-16 for section padding. Don't be afraid of empty space.",
+    "contrast": "Always tint greys with blue (cool) or orange (warm). Never pure grey.",
+    "interactivity": "All buttons must have a hover state. All cards must lift on hover.",
+    "accessibility": "Ensure text contrast meets APCA standards. Use aria-labels for icon buttons."
+  }
+}
